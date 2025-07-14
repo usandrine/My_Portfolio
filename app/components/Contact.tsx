@@ -52,7 +52,7 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mb-4"></div>
+          <div className="w-20 h-1 bg-green-600 mx-auto mb-4"></div>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and
             software development.
@@ -73,7 +73,7 @@ export default function Contact() {
               <CardContent className="space-y-4">
                 {contactInfo.map((info) => (
                   <div key={info.label} className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
                       <info.icon className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -120,7 +120,7 @@ export default function Contact() {
                   <Input type="email" placeholder="Email Address" />
                   <Input placeholder="Subject" />
                   <Textarea placeholder="Your Message" rows={5} />
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Send Message</Button>
+                  <Button className="w-full bg-green-600 hover:bg-green-700">Send Message</Button>
                 </form>
               </CardContent>
             </Card>

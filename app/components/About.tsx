@@ -15,7 +15,7 @@ export default function About() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-green-600 mx-auto"></div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -77,8 +77,8 @@ export default function About() {
               <CardContent className="p-0">
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Languages</h4>
                 <div className="flex space-x-4 text-sm text-gray-600 dark:text-gray-300">
-                  <span className="bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full">English</span>
-                  <span className="bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full">Kinyarwanda</span>
+                  <span className="bg-green-100 dark:bg-green-900/30 px-3 py-1 rounded-full">English</span>
+                  <span className="bg-green-100 dark:bg-green-900/30 px-3 py-1 rounded-full">Kinyarwanda</span>
                 </div>
               </CardContent>
             </Card>

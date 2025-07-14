@@ -83,7 +83,7 @@ export default function Projects() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Featured Projects</h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-green-600 mx-auto"></div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -96,13 +96,13 @@ export default function Projects() {
               viewport={{ once: true }}
             >
               <Card
-                className={`h-full hover:shadow-lg transition-shadow ${project.featured ? "ring-2 ring-blue-500" : ""}`}
+                className={`h-full hover:shadow-lg transition-shadow ${project.featured ? "ring-2 ring-green-500" : ""}`}
               >
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center justify-between">
                     {project.title}
                     {project.featured && (
-                      <span className="text-xs bg-blue-500 text-white px-2 py-1 rounded-full">Live</span>
+                      <span className="text-xs bg-green-500 text-white px-2 py-1 rounded-full">Live</span>
                     )}
                   </CardTitle>
                 </CardHeader>
@@ -122,7 +122,7 @@ export default function Projects() {
 
                   <div className="flex space-x-2 pt-4">
                     {project.liveUrl && (
-                      <Button size="sm" asChild>
+                      <Button size="sm" asChild  className="bg-green-500 hover:bg-green-600 text-black" >
                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                           <ExternalLink className="h-4 w-4 mr-2" />
                           Live Demo

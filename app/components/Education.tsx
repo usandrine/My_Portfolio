@@ -42,7 +42,7 @@ export default function Education() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Education</h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-green-600 mx-auto"></div>
         </motion.div>
 
         <div className="space-y-8">
@@ -58,12 +58,12 @@ export default function Education() {
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex items-center space-x-3">
-                      <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+                      <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center">
                         <GraduationCap className="h-6 w-6 text-white" />
                       </div>
                       <div>
                         <CardTitle className="text-lg">{edu.degree}</CardTitle>
-                        <p className="text-blue-600 dark:text-blue-400 font-medium">{edu.institution}</p>
+                        <p className="text-green-600 dark:text-green-400 font-medium">{edu.institution}</p>
                       </div>
                     </div>
                     <div className="text-right">
@@ -75,7 +75,7 @@ export default function Education() {
                         className={`px-3 py-1 rounded-full text-xs font-medium ${
                           edu.status === "In Progress"
                             ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400"
-                            : "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400"
+                            : "bg-blue-100 text-green-800 dark:bg-blue-900/30 dark:text-green-400"
                         }`}
                       >
                         {edu.status}

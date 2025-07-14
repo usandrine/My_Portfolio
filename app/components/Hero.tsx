@@ -18,12 +18,12 @@ export default function Hero() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               UMUGWANEZA
-              <span className="block text-blue-600 dark:text-blue-400">Sandrine</span>
+              <span className="block text-green-600 dark:text-green-400">Sandrine</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4">
-              Computer & Software Engineering Student
-            </p>
-            <p className="text-lg text-gray-500 dark:text-gray-400 mb-8">University of Rwanda | Full-Stack Developer</p>
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 mb-8">
+  I'm a full-stack software engineer passionate about open-source and building impactful projects. With expertise in React, TypeScript, Node.js, PostgreSQL, Java, and Spring Boot. I love solving complex problems and creating solutions that make a difference.
+</p>
+
           </motion.div>
 
           <motion.div
@@ -70,14 +70,14 @@ export default function Hero() {
             <Button
               size="lg"
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
-              className="bg-blue-600 hover:bg-blue-700 text-white"
+              className="bg-green-600 hover:bg-green-700 text-white"
             >
               View My Work
             </Button>
             <Button
               variant="outline"
               size="lg"
-              className="border-blue-600 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20"
+              className="border-green-600 green-blue-600 hover:bg-green-50 dark:hover:bg-green-900/20"
             >
               <Download className="h-4 w-4 mr-2" />
               Download CV
