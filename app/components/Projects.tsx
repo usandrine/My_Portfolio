@@ -7,6 +7,15 @@ import { ExternalLink, Github } from "lucide-react"
 
 export default function Projects() {
   const projects = [
+    
+     {
+    title: "Full Basic Student Management System",
+    description:
+      "A modern web-based platform for managing student information, courses, and performance, featuring a clean UI and secure role-based access.",
+    technologies: ["Next.js", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    liveUrl: "https://full-basic-student-management-syste.vercel.app/",
+    featured: true,
+  },
     {
       title: "Employee Training Portal",
       description:
