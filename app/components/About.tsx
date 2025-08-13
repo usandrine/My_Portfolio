@@ -61,10 +61,7 @@ export default function About() {
                     <span className="font-medium">Gender:</span>
                     <span>Female</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="font-medium">Date of Birth:</span>
-                    <span>20th February 2002</span>
-                  </div>
+                  
                   <div className="flex justify-between">
                     <span className="font-medium">Location:</span>
                     <span>Kicukiro, Rwanda</span>
