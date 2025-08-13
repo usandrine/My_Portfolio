@@ -28,7 +28,7 @@ export default function Projects() {
       title: "React Website",
       description: "A modern React website showcasing responsive design and interactive components.",
       technologies: ["React.js", "CSS", "JavaScript"],
-      liveUrl: "https://reactwebsite-dczb-lnbh8hjr3-usandrines-projects.vercel.app/",
+      liveUrl: "https://reactwebsite-taupe.vercel.app/",
       featured: true,
     },
     {
