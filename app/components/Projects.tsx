@@ -14,9 +14,21 @@ export default function Projects() {
       "A full-stack task management application with secure OTP-based authentication (admin creates users who sign in with temporary passwords). Features user management, task organization with filtering/pagination, and progress analytics.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Node.js", "Express", "TypeORM", "Neon PostgreSQL"],
     liveUrl: "https://todo-with-otp.vercel.app/",
-    githubUrl: "https://github.com/usandrine", // Add your actual GitHub URL if different
+     githubUrl: "https://github.com/usandrine/TODO-WITH-OTP.git", // Add your actual GitHub URL if different
     featured: true,
   },
+
+   {
+    title: "HR Information Management System (HRIS)",
+    description:
+      "A comprehensive enterprise-grade HR platform with role-based dashboards for Admin, HR, and Employee users. Features include recruitment management, payroll processing, performance appraisals, leave management, disciplinary tracking, training programs, asset management, employee transfers, contract management, and real-time analytics.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Node.js", "Express", "TypeORM", "PostgreSQL"],
+    liveUrl: "https://hr-front-z0p6.onrender.com/login",
+    githubUrl: "https://github.com/ingatatech/HR-Front.git",//frontend
+    githubUrl2: "https://github.com/ingatatech/HR-Backend.git",//backend
+    featured: true,
+  },
+
   {
     title: "Full Basic Student Management System",
     description:
