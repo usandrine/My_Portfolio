@@ -23,7 +23,7 @@ export default function Projects() {
     description:
       "A comprehensive enterprise-grade HR platform with role-based dashboards for Admin, HR, and Employee users. Features include recruitment management, payroll processing, performance appraisals, leave management, disciplinary tracking, training programs, asset management, employee transfers, contract management, and real-time analytics.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Node.js", "Express", "TypeORM", "PostgreSQL"],
-    liveUrl: "https://hr-front-z0p6.onrender.com/login",
+    liveUrl: "https://ingata-hrms.com",
     githubUrl: "https://github.com/ingatatech/HR-Front.git",//frontend
     githubUrl2: "https://github.com/ingatatech/HR-Backend.git",//backend
     featured: true,
