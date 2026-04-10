@@ -14,7 +14,7 @@ export default function Projects() {
       "A full-stack task management application with secure OTP-based authentication (admin creates users who sign in with temporary passwords). Features user management, task organization with filtering/pagination, and progress analytics.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Node.js", "Express", "TypeORM", "Neon PostgreSQL"],
     liveUrl: "https://todo-with-otp.vercel.app/",
-     githubUrl: "https://github.com/usandrine/TODO-WITH-OTP.git", // Add your actual GitHub URL if different
+     githubUrl: "https://github.com/usandrine/TODO-WITH-OTP.git",
     featured: true,
   },
 
@@ -24,20 +24,22 @@ export default function Projects() {
       "A comprehensive enterprise-grade HR platform with role-based dashboards for Admin, HR, and Employee users. Features include recruitment management, payroll processing, performance appraisals, leave management, disciplinary tracking, training programs, asset management, employee transfers, contract management, and real-time analytics.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Node.js", "Express", "TypeORM", "PostgreSQL"],
     liveUrl: "https://ingata-hrms.com",
-    githubUrl: "https://github.com/ingatatech/HR-Front.git",//frontend
-    githubUrl2: "https://github.com/ingatatech/HR-Backend.git",//backend
+    githubUrl: "https://github.com/ingatatech/HR-Front.git",
+    githubUrl2: "https://github.com/ingatatech/HR-Backend.git",
     featured: true,
   },
 
   {
-    title: "Full Basic Student Management System",
+    title: "Sportz: Live Sports Commentary with WebSockets",
     description:
-      "A modern web-based platform for managing student information, courses, and performance, featuring a clean UI and secure role-based access.",
-    technologies: ["Next.js", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-    liveUrl: "https://full-basic-student-management-syste.vercel.app/",
+      "A real-time sports commentary platform featuring live match updates, WebSocket broadcast channels, and PostgreSQL integration. Provides instant score updates, play-by-play commentary, and interactive fan engagement during live matches.",
+    technologies: ["Express.js", "WebSockets (ws)", "PostgreSQL", "JavaScript", "Node.js", "HTML/CSS"],
+    liveUrl: "https://sportz-websockets-three.vercel.app/",
+    githubUrl: "https://github.com/usandrine/sportz-websockets",
     featured: true,
   },
-     {
+
+  {
     title: "Full Basic Student Management System",
     description:
       "A modern web-based platform for managing student information, courses, and performance, featuring a clean UI and secure role-based access.",
